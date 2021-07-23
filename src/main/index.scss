@@ -1,0 +1,81 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: '나눔고딕', '맑은 고딕';
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+a { color: inherit; text-decoration: none; }
+li { list-style: none; }
+.inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 128px;
+        height: auto;
+    }
+    button {
+        padding: 16px;
+        background-color: #fff;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+    }
+}
+#visual {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+#products {
+    padding: 20px;
+    #product-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        .product-card {
+            width: 24%;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            &:not(:nth-child(4n)) {
+                margin-right: 1.3333%;
+            }
+            .product-img {
+                width: 100%;
+            }
+            .product-contents {
+                display: flex;
+                flex-direction: column;
+                padding: 16px;
+                .product-seller {
+                    display: flex;
+                    align-items: center;
+                    .product-avatar {
+                        width: 30px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    address {
+        font-style: normal;
+        padding-left: 30px;
+    }
+}

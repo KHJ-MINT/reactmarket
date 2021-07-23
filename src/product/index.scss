@@ -1,0 +1,38 @@
+#detailView {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    h1 {
+        text-align: center;
+        padding: 20px;
+        font-weight: normal;
+        font-size: 36px;
+    }
+    > div {
+        width: 100%;
+        &#image-box {
+            text-align: center;
+            img {
+                width: 50%;
+                border-radius: 50%;
+            }
+            #profile-box {
+                img {
+                    width: 62px;
+                    vertical-align: middle;
+                }
+                line-height: 62px;
+            }
+        }
+        &#contents-box {
+            font-size: 18px;
+            width: 100%;
+            > div {
+                padding: 16px;
+            }
+            #name {
+                border-bottom: 1px solid #ccc;
+                font-size: 32px;
+            }
+        }
+    }
+}
