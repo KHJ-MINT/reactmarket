@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactmarket/static/css/main.82349cdc.chunk.css",
+    "main.js": "/reactmarket/static/js/main.92af1195.chunk.js",
+    "main.js.map": "/reactmarket/static/js/main.92af1195.chunk.js.map",
+    "runtime-main.js": "/reactmarket/static/js/runtime-main.fa51ef29.js",
+    "runtime-main.js.map": "/reactmarket/static/js/runtime-main.fa51ef29.js.map",
+    "static/css/2.af9592cd.chunk.css": "/reactmarket/static/css/2.af9592cd.chunk.css",
+    "static/js/2.a13cfc44.chunk.js": "/reactmarket/static/js/2.a13cfc44.chunk.js",
+    "static/js/2.a13cfc44.chunk.js.map": "/reactmarket/static/js/2.a13cfc44.chunk.js.map",
+    "static/js/3.04df15f2.chunk.js": "/reactmarket/static/js/3.04df15f2.chunk.js",
+    "static/js/3.04df15f2.chunk.js.map": "/reactmarket/static/js/3.04df15f2.chunk.js.map",
+    "index.html": "/reactmarket/index.html",
+    "static/css/2.af9592cd.chunk.css.map": "/reactmarket/static/css/2.af9592cd.chunk.css.map",
+    "static/css/main.82349cdc.chunk.css.map": "/reactmarket/static/css/main.82349cdc.chunk.css.map",
+    "static/js/2.a13cfc44.chunk.js.LICENSE.txt": "/reactmarket/static/js/2.a13cfc44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa51ef29.js",
+    "static/css/2.af9592cd.chunk.css",
+    "static/js/2.a13cfc44.chunk.js",
+    "static/css/main.82349cdc.chunk.css",
+    "static/js/main.92af1195.chunk.js"
+  ]
+}
